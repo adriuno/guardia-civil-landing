@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Preparación física especializada para oposiciones a Guardia Civil. Entrena con profesionales y alcanza tu objetivo.">
+    <title>Pruebas físicas GC | Guardia Civil </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav role="navigation" aria-label="Navegación principal">
+            <div class="logo">
+                <a href="#inicio">
+                    <img src="imagenes/logo2.png" alt="Logo">
+                </a>
+            </div>
+            <button class="mobile-menu" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <!-- <li><a href="#testimonios">Testimonios</a></li> -->
+                <li><a href="#reseñas">Opiniones</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <h1>Pruebas físicas para opositores a GUARDIA CIVIL</h1>
+        <p>¿Decidido a ser Guardia Civil? Te ayudamos a conseguir tu sueño</p>
+        <!-- <p>Entrena con profesionales especializados y supera las pruebas físicas con garantías. Programas personalizados adaptados a tus objetivos.</p> -->
+        <div class="cta-buttons">
+            <a href="#contacto" class="btn btn-primary">Quiero información</a>
+            <a href="#servicios" class="btn btn-secondary">Descubrir más</a>
+        </div>
+    </section>
+
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h2 class="section-title">Programas de Entrenamiento</h2>
+        <p class="section-subtitle">Elige el programa que mejor se adapte a tus necesidades</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏃‍♂️</div>
+                <h3>Programa PRESENCIAL</h3>
+                <p>Entrenamiento personalizado con supervisión directa.</p>
+                <ul>
+                    <li>Sesiones individuales</li>
+                    <li>Grupos reducidos</li>
+                    <li>Análisis inicial completo</li>
+                    <li>Simulacros trimestrales</li>
+                    <li>Soporte por WhatsApp</li>
+                </ul>
+                <a href="#contacto" class="btn btn-primary">+ info</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Programa ONLINE</h3>
+                <p>Programa completo a distancia con seguimiento personalizado.</p>
+                <ul>
+                    <li>Plan de entrenamiento semanal</li>
+                    <li>Vídeos explicativos de ejercicios</li>
+                    <li>Asesorías mensuales</li>
+                    <li>Llamadas mensuales</li>
+                    <li>Soporte por email</li>
+                    <li>Soporte por WhatsApp</li>
+                </ul>
+                <a href="#contacto" class="btn btn-primary">+ info</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>Programa INTENSIVO</h3>
+                <p>Preparación para convocatorias próximas a la fecha de oposición.</p>
+                <ul>
+                    <li>3 meses de preparación intensiva</li>
+                    <li>3 sesiones semanales</li>
+                    <li>Entrenamientos personalizados</li>
+                    <li>Simulacros de prueba</li>
+                    <li>Garantía de mejora de marcas</li>
+                    <li>Soporte por WhatsApp</li>
+
+                </ul>
+                <a href="#contacto" class="btn btn-primary">+ info</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología -->
+    <section id="metodologia" class="methodology-bg">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 5rem 2rem;">
+            <h2 class="section-title">UNA METODOLOGÍA PROBADA</h2>
+            <h2 class="section-title">AL ALCANCE DE TODOS</h2>
+            <div class="method-steps">
+                <div class="method-step">
+                    <div class="step-number">1</div>
+                    <h3>Compromiso</h3>
+                    <p>Estudiaremos tu punto de partida y determinaremos el plan para alcanzar tu meta.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">2</div>
+                    <h3>"EL PLAN"</h3>
+                    <p>Tendrás un plan adaptado a tus características y necesidades.</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">3</div>
+                    <h3>Entrenamientos</h3>
+                    <p>Calidad sobre cantidad. No se trata de "no pain no gain". Contamos con un 100% de aprobados que
+                        lo avala.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonios en Video -->
+    <!--  
+     FUERA DE SERVICIO TEMPORALMENTE
+
+
+    <section id="testimonios" class="methodology-bg">
+        <h2 class="section-title">Testimonios</h2>
+        <p class="section-subtitle">Conoce las experiencias reales de nuestros opositores</p>
+        
+        <div class="video-carousel">
+            <button class="carousel-btn carousel-btn-prev" onclick="moveCarousel(-1)" aria-label="Video anterior">
+                <span aria-hidden="true">❮</span>
+            </button>
+            
+            <div class="carousel-container" role="region" aria-label="Carrusel de testimonios en video">
+                Videos renderizados dinámicamente desde data.js 
+                <div class="carousel-track" id="carouselTrack"></div>
+            </div>
+            
+            <button class="carousel-btn carousel-btn-next" onclick="moveCarousel(1)" aria-label="Video siguiente">
+                <span aria-hidden="true">❯</span>
+            </button>
+        </div>
+        
+        Indicadores renderizados dinámicamente desde data.js 
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+    </section>
+
+    -->
+
+
+
+    <!-- Reseñas -->
+    <section id="reseñas">
+        <h2 class="section-title">¿Qué opinan nuestros opositores?</h2>
+        <p class="section-subtitle">Historias reales de éxito</p>
+
+        <div class="testimonials-carousel">
+            <button class="carousel-btn carousel-btn-prev" id="testimonialsPrev" aria-label="Reseña anterior">
+                <span aria-hidden="true">❮</span>
+            </button>
+
+            <div class="testimonials-container-wrapper">
+                <!-- Testimonios renderizados dinámicamente desde data.js -->
+                <div class="testimonials" id="testimonials-container"></div>
+            </div>
+
+            <button class="carousel-btn carousel-btn-next" id="testimonialsNext" aria-label="Reseña siguiente">
+                <span aria-hidden="true">❯</span>
+            </button>
+        </div>
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators" id="testimonialsIndicators"></div>
+    </section>
+
+
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi">
+        <h2 class="section-title">Sobre mí</h2>
+        <p class="section-subtitle">"Soy un apasionado del entrenamiento y para mi es un gran placer hacer el camino más
+            fácil y ayudar a alguien a conseguir su sueño"</p>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="imagenes/fotico-perfil.jpeg" alt="Entrenador personal - Preparador físico">
+            </div>
+            <div class="about-text">
+                <h3>Te preparamos como a los NÚMERO 1 </h3>
+                <p>Mi nombre es Adrián y tengo +4 años de experiencia en el sector. Estoy especializado en oposiciones a
+                    Fuerzas y Cuerpos de Seguridad del Estado, con especial enfoque en las pruebas físicas de acceso a
+                    la Guardia Civil.</p>
+                <p>He ayudado a decenas de opositores a conseguir sus objetivos, mejorando sus marcas y superar las
+                    pruebas físicas con éxito.</p>
+                <p>La metodología se basa en planes de entrenamiento personalizados, llevar un seguimiento y una
+                    atención personalizada para que si o si una plaza sea tuya.</p>
+                <div class="credentials">
+                    <span class="credential-badge">🎓 Graduado en Ciencias del Entrenamiento y el Deporte</span>
+                    <!-- <span class="credential-badge"> Constancia y trabajo</span> -->
+                    <span class="credential-badge">🏅 Esfuerzo, constancia y sacrificio</span>
+                    <span class="credential-badge">💪 Especialista - Guardia Civil</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Nosotros lo tenemos claro ¿Y tú?</h2>
+                    <p>Si tienes cualquier duda sobre las pruebas físicas, nuestros servicios, etc. Nosotros te las
+                        resolvemos sin problemas. Y si lo que quieres es empezar ya, contáctanos por email y empezamos
+                        con tus físicas. </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="parrafiyo">
+                                <h4>Email</h4>
+                                <p>prepa.fisicas.guardias@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="parrafiyo">
+                                <h4>Ubicación</h4>
+                                <p>Almería, España.</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">⏰</div>
+                            <div class="parrafiyo">
+                                <h4>Horario de atención</h4>
+                                <p>Lun - Vie: 8:00 - 21:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div id="formMessage" class="form-message"></div>
+
+                    <div class="form-group">
+                        <label for="name">Nombre y apellidos *</label>
+                        <input type="text" id="name" name="name" required minlength="3" maxlength="100"
+                            placeholder="Ej: María del Mar" aria-required="true">
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Ej: ejemplo@email.com"
+                            aria-required="true">
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Teléfono *</label>
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9]{9}"
+                            placeholder="Ej: 612345678" maxlength="9" aria-required="true">
+                        <span class="error-message" id="phone-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Programa de Interés *</label>
+                        <select id="service" name="service" required aria-required="true">
+                            <option value="">Selecciona una opción</option>
+                            <option value="presencial">Entrenamiento Presencial</option>
+                            <option value="online">Entrenamiento Online</option>
+                            <option value="intensivo">Programa Intensivo</option>
+                            <option value="consulta">Consulta General</option>
+                        </select>
+                        <span class="error-message" id="service-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje *</label>
+                        <textarea id="message" name="message" required minlength="10" maxlength="1000"
+                            placeholder="Cuéntanos tus dudas y te ayudamos!" aria-required="true"></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Síguenos por Instagram</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/pruebasfisicasguardiacivil?igsh=OGhrdWlpcWR3MGFr&utm_source=qr"
+                        target="_blank">
+                        <img src="imagenes/logo_ig.webp" class="social-link instagram" alt="Logo instagram">
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Información legal</h3>
+                <ul>
+                    <li><a href="#">Aviso Legal</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <p>Todos los derechos reservados &copy; 2025 </p>
+                <p>Web creada por Adrián Ginel Mañas</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("p-QrCEj1ccdOjikpz");
+        })();
+    </script>
+
+    <!-- Datos de la web -->
+    <script src="data.js"></script>
+
+    <!-- JS con funciones -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+
+Croquis de cómo funciona el CONTACTO !!
+
+
+┌─────────────────────────────────────────────────────────────────┐
+│                    👤 USUARIO EN TU WEB                          │
+│                                                                   │
+│  Rellena formulario:                                             │
+│  ┌─────────────────────────────────────────┐                    │
+│  │ Nombre: Juan García                      │                    │
+│  │ Email: juan@gmail.com                    │                    │
+│  │ Teléfono: 612345678                      │                    │
+│  │ Programa: [Entrenamiento Online ▼]      │                    │
+│  │ Mensaje: Quiero información...           │                    │
+│  │                                           │                    │
+│  │        [🚀 Enviar Mensaje]               │                    │
+│  └─────────────────────────────────────────┘                    │
+│                       │                                           │
+│                       │ Click                                     │
+│                       ▼                                           │
+└─────────────────────────────────────────────────────────────────┘
+                        │
+                        │
+┌───────────────────────▼─────────────────────────────────────────┐
+│              🔍 VALIDACIÓN (3 CAPAS)                             │
+│                                                                   │
+│  1️⃣ HTML5 (Inmediata)                                           │
+│     ├─ Email: formato correcto? ✅                               │
+│     ├─ Teléfono: 9 dígitos? ✅                                   │
+│     └─ Campos requeridos: todos llenos? ✅                       │
+│                                                                   │
+│  2️⃣ JavaScript (Antes de enviar)                                │
+│     ├─ Regex email: /^[a-zA-Z0-9._%+-]+@.../ ✅                 │
+│     ├─ Regex teléfono: /^[0-9]{9}$/ ✅                           │
+│     ├─ Nombre: mínimo 3 caracteres? ✅                           │
+│     ├─ Programa: seleccionado? ✅                                │
+│     └─ Mensaje: mínimo 10 caracteres? ✅                         │
+│                                                                   │
+│  3️⃣ EmailJS (Servidor)                                          │
+│     └─ Verificación final en la nube ✅                          │
+│                                                                   │
+│  ❌ Si falla → Mensaje de error rojo                             │
+│  ✅ Si pasa → Continúa al siguiente paso                         │
+└───────────────────────┬─────────────────────────────────────────┘
+                        │
+                        │ Datos validados
+                        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              📦 PREPARACIÓN DE DATOS                             │
+│                                                                   │
+│  script.js - Línea 225:                                          │
+│  ┌──────────────────────────────────────────────────┐           │
+│  │ const formData = {                                │           │
+│  │   name: "Juan García",                            │           │
+│  │   email: "juan@gmail.com",                        │           │
+│  │   phone: "612345678",                             │           │
+│  │   service: "Entrenamiento Online",                │           │
+│  │   message: "Quiero información..."                │           │
+│  │ }                                                  │           │
+│  └──────────────────────────────────────────────────┘           │
+└───────────────────────┬─────────────────────────────────────────┘
+                        │
+                        │ JSON preparado
+                        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              🚀 ENVÍO VÍA EMAILJS                                │
+│                                                                   │
+│  script.js - Línea 203-207:                                      │
+│  ┌──────────────────────────────────────────────────┐           │
+│  │ await emailjs.send(                               │           │
+│  │   'service_l64l0tp',      // ← Tu servicio Gmail │           │
+│  │   'template_f61t78m',     // ← Tu plantilla      │           │
+│  │   formData                // ← Datos del form    │           │
+│  │ );                                                 │           │
+│  └──────────────────────────────────────────────────┘           │
+│                                                                   │
+│  🔒 TU EMAIL NUNCA SE ENVÍA (está oculto en EmailJS)            │
+└───────────────────────┬─────────────────────────────────────────┘
+                        │
+                        │ Petición HTTPS
+                        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              ☁️ SERVIDORES DE EMAILJS                            │
+│                                                                   │
+│  1. Recibe los datos                                             │
+│  2. Valida Public Key: p-QrCEj1ccdOjikpz ✅                     │
+│  3. Busca Service ID: service_l64l0tp                            │
+│  4. Carga Template ID: template_f61t78m                          │
+│  5. Reemplaza variables:                                         │
+│     {{name}} → "Juan García"                                     │
+│     {{email}} → "juan@gmail.com"                                 │
+│     {{phone}} → "612345678"                                      │
+│     {{service}} → "Entrenamiento Online"                         │
+│     {{message}} → "Quiero información..."                        │
+│                                                                   │
+│  6. Genera email formateado                                      │
+│  7. Conecta con tu Gmail (prepa.fisicas.guardias@gmail.com)     │
+│  8. Envía el email                                               │
+└───────────────────────┬─────────────────────────────────────────┘
+                        │
+                        │ Email enviado
+                        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              📧 TU BANDEJA DE ENTRADA                            │
+│                  prepa.fisicas.guardias@gmail.com                │
+│                                                                   │
+│  ╔═══════════════════════════════════════════════════════════╗  │
+│  ║ De: noreply@emailjs.com                                    ║  │
+│  ║ Para: prepa.fisicas.guardias@gmail.com                     ║  │
+│  ║ Asunto: Nuevo contacto desde Web Guardias: Entrenamiento  ║  │
+│  ║         Online                                              ║  │
+│  ╠═══════════════════════════════════════════════════════════╣  │
+│  ║ Has recibido un nuevo mensaje desde tu web:               ║  │
+│  ║                                                             ║  │
+│  ║ DATOS DEL CONTACTO:                                        ║  │
+│  ║ --------------------                                        ║  │
+│  ║ Nombre: Juan García                                        ║  │
+│  ║ Email: juan@gmail.com                                      ║  │
+│  ║ Teléfono: 612345678                                        ║  │
+│  ║ Programa: Entrenamiento Online                             ║  │
+│  ║                                                             ║  │
+│  ║ MENSAJE:                                                    ║  │
+│  ║ --------------------                                        ║  │
+│  ║ Quiero información...                                      ║  │
+│  ║                                                             ║  │
+│  ║ Este mensaje fue enviado desde el formulario de contacto   ║  │
+│  ║ de tu web.                                                  ║  │
+│  ╚═══════════════════════════════════════════════════════════╝  │
+│                                                                   │
+│  🎯 Puedes responder directamente a juan@gmail.com               │
+└───────────────────────┬─────────────────────────────────────────┘
+                        │
+                        │ Respuesta de EmailJS
+                        ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              ✅ CONFIRMACIÓN AL USUARIO                          │
+│                                                                   │
+│  En la web aparece:                                              │
+│  ┌──────────────────────────────────────────────────┐           │
+│  │ ✅ ¡Mensaje enviado con éxito!                    │           │
+│  │    Te contactaré pronto.                          │           │
+│  └──────────────────────────────────────────────────┘           │
+│                                                                   │
+│  El formulario se limpia automáticamente                         │
+└─────────────────────────────────────────────────────────────────┘
+
+
+-->
